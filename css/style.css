@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.page-wrap{
+    width: 100%;
+}
+.container{
+    width: 100%;
+}
+.counter-title{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30%;
+    font-family: 'Poppins', sans-serif;
+}
+.title{
+    font-size: 25px;
+}
+.value{
+    margin-top: 15%;
+}
+#counter-value{
+    font-size: 100px;
+}
+.counters-button{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 15%;
+}
+button{
+    width: 70px;
+    padding: 4px 5px;
+    font-family: 'M PLUS 1 Code', sans-serif;
+    border-color: rebeccapurple;
+    border-radius: 5px;
+    font-size: 15px;
+}
+@media screen and (min-width: 480px) {
+    .container{
+        width: 100%;
+    }
+    .counter-title{
+        width: 100%;
+        display: flex;
+        flex-direction: column;  
+        align-items: center;
+        margin-top: 8%;
+        font-family: 'Poppins', sans-serif;
+    }
+    .title{
+        font-size: 25px;
+    }
+    .value{
+        margin-top: 5%;
+    }
+    #counter-value{
+        font-size: 100px;
+    }
+    .counters-button{
+        margin-top: 5%;
+    }
+    button{
+        width: 100%;
+        padding: 11px 25px;
+        font-family: 'M PLUS 1 Code', sans-serif;
+        border-color: rebeccapurple;
+        border-radius: 5px;
+        font-size: 25px;
+    }
+}
